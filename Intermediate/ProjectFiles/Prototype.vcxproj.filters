@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Prototype.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Prototype.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PrototypeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Prototype">
+      <UniqueIdentifier>{14F936D4-3928-33B3-B9F8-8AE6BBA85935}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Prototype\Prototype.Build.cs">
+      <Filter>Source\Prototype</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Prototype\Prototype.cpp">
+      <Filter>Source\Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Prototype.h">
+      <Filter>Source\Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\PrototypeCharacter.cpp">
+      <Filter>Source\Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\PrototypeCharacter.h">
+      <Filter>Source\Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\PrototypeGameMode.cpp">
+      <Filter>Source\Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\PrototypeGameMode.h">
+      <Filter>Source\Prototype</Filter>
+    </ClCompile>
+    <Filter Include="Source\Prototype\Private">
+      <UniqueIdentifier>{456012BF-B916-3848-8A89-CF17E08C9955}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Prototype\Private\Bloque.cpp">
+      <Filter>Source\Prototype\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Private\BloqueAcero.cpp">
+      <Filter>Source\Prototype\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Private\BloqueBase.cpp">
+      <Filter>Source\Prototype\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Private\BloqueClone.cpp">
+      <Filter>Source\Prototype\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Private\BloqueConcreto.cpp">
+      <Filter>Source\Prototype\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Private\BloqueEspecial.cpp">
+      <Filter>Source\Prototype\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Private\BloqueLadrillo.cpp">
+      <Filter>Source\Prototype\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Private\BloqueMadera.cpp">
+      <Filter>Source\Prototype\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Private\IPrototype.cpp">
+      <Filter>Source\Prototype\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Prototype\Public">
+      <UniqueIdentifier>{3A5A0D78-65DD-32AE-B1A1-DDAAB07299A1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Prototype\Public\Bloque.h">
+      <Filter>Source\Prototype\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Public\BloqueAcero.h">
+      <Filter>Source\Prototype\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Public\BloqueBase.h">
+      <Filter>Source\Prototype\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Public\BloqueClone.h">
+      <Filter>Source\Prototype\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Public\BloqueConcreto.h">
+      <Filter>Source\Prototype\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Public\BloqueEspecial.h">
+      <Filter>Source\Prototype\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Public\BloqueLadrillo.h">
+      <Filter>Source\Prototype\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Public\BloqueMadera.h">
+      <Filter>Source\Prototype\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Public\IPrototype.h">
+      <Filter>Source\Prototype\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\PatronesUnreal\\Prototype\\Source\\Prototype\\Prototype.Build.cs",
+		"D:\\PatronesUnreal\\Prototype\\Source\\Prototype.Target.cs",
+		"D:\\PatronesUnreal\\Prototype\\Source\\PrototypeEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
