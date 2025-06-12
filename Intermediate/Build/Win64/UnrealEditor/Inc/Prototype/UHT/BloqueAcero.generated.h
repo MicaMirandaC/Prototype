@@ -24,8 +24,6 @@ public: \
 
 
 #define FID_Prototype_Source_Prototype_Public_BloqueAcero_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ABloqueAcero(); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ABloqueAcero(ABloqueAcero&&); \

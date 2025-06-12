@@ -11,6 +11,8 @@
     <None Include="..\..\Source\PrototypeEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -81,6 +83,21 @@
     <ClCompile Include="..\..\Source\Prototype\Private\BloqueMadera.cpp">
       <Filter>Source\Prototype\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Private\BloqueMov.cpp">
+      <Filter>Source\Prototype\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Private\BloqueRandom.cpp">
+      <Filter>Source\Prototype\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Private\Fabrica.cpp">
+      <Filter>Source\Prototype\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Private\FabricaBloquesEstaticos.cpp">
+      <Filter>Source\Prototype\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Private\FabricaBloquesMagicos.cpp">
+      <Filter>Source\Prototype\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Prototype\Private\IPrototype.cpp">
       <Filter>Source\Prototype\Private</Filter>
     </ClCompile>
@@ -109,6 +126,21 @@
       <Filter>Source\Prototype\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Prototype\Public\BloqueMadera.h">
+      <Filter>Source\Prototype\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Public\BloqueMov.h">
+      <Filter>Source\Prototype\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Public\BloqueRandom.h">
+      <Filter>Source\Prototype\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Public\Fabrica.h">
+      <Filter>Source\Prototype\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Public\FabricaBloquesEstaticos.h">
+      <Filter>Source\Prototype\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype\Public\FabricaBloquesMagicos.h">
       <Filter>Source\Prototype\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Prototype\Public\IPrototype.h">

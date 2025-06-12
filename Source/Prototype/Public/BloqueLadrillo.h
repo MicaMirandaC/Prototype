@@ -13,5 +13,12 @@ UCLASS()
 class PROTOTYPE_API ABloqueLadrillo : public ABloque
 {
 	GENERATED_BODY()
+
+public:
+	ABloqueLadrillo();
+
+	virtual void BeginPlay() override;
+
+	virtual void Tick(float DeltaTime) override; //funcion de movimento
 	
 };

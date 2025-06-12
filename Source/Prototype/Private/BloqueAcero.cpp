@@ -3,3 +3,21 @@
 
 #include "BloqueAcero.h"
 
+
+ABloqueAcero::ABloqueAcero()
+{
+    if (MallaBloque) //Verifica si la maya existe
+    {
+        static ConstructorHelpers::FObjectFinder<UMaterial> MaterialBase(TEXT("/Script/Engine.Material'/Game/StarterContent/Materials/M_Metal_Steel.M_Metal_Steel'"));
+
+        if (MaterialBase.Succeeded())
+        {
+            //Asigna el material
+            MallaBloque->SetMaterial(0, MaterialBase.Object); // Asignar el material al slot 0
+        }
+    }
+}
+
+void ABloqueAcero::BeginPlay()
+{
+}

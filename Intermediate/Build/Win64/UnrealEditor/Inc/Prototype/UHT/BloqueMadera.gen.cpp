@@ -74,7 +74,6 @@ template<> PROTOTYPE_API UClass* StaticClass<ABloqueMadera>()
 {
 	return ABloqueMadera::StaticClass();
 }
-ABloqueMadera::ABloqueMadera() {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(ABloqueMadera);
 ABloqueMadera::~ABloqueMadera() {}
 // End Class ABloqueMadera
@@ -83,10 +82,10 @@ ABloqueMadera::~ABloqueMadera() {}
 struct Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueMadera_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABloqueMadera, ABloqueMadera::StaticClass, TEXT("ABloqueMadera"), &Z_Registration_Info_UClass_ABloqueMadera, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABloqueMadera), 54667269U) },
+		{ Z_Construct_UClass_ABloqueMadera, ABloqueMadera::StaticClass, TEXT("ABloqueMadera"), &Z_Registration_Info_UClass_ABloqueMadera, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABloqueMadera), 2530457588U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueMadera_h_3273867365(TEXT("/Script/Prototype"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueMadera_h_3901637602(TEXT("/Script/Prototype"),
 	Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueMadera_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueMadera_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

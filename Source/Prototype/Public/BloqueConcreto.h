@@ -13,5 +13,11 @@ UCLASS()
 class PROTOTYPE_API ABloqueConcreto : public ABloque
 {
 	GENERATED_BODY()
+
+public:
+	ABloqueConcreto();
+
+protected:
+	virtual void BeginPlay() override;
 	
 };

@@ -13,5 +13,12 @@ UCLASS()
 class PROTOTYPE_API ABloqueAcero : public ABloque
 {
 	GENERATED_BODY()
+
+public:
+	ABloqueAcero();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 	
 };

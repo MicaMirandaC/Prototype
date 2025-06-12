@@ -16,6 +16,11 @@ public:
 	ABloque();
 
 protected:
+	// Componente de malla estática
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Componentes")
+	UStaticMeshComponent* MallaBloque;
+
+protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 

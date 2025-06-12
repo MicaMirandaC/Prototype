@@ -13,5 +13,11 @@ UCLASS()
 class PROTOTYPE_API ABloqueMadera : public ABloque
 {
 	GENERATED_BODY()
-	
+
+public:
+	ABloqueMadera();
+
+protected:
+
+	virtual void BeginPlay() override;
 };

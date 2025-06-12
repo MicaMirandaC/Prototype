@@ -74,7 +74,6 @@ template<> PROTOTYPE_API UClass* StaticClass<ABloqueLadrillo>()
 {
 	return ABloqueLadrillo::StaticClass();
 }
-ABloqueLadrillo::ABloqueLadrillo() {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(ABloqueLadrillo);
 ABloqueLadrillo::~ABloqueLadrillo() {}
 // End Class ABloqueLadrillo
@@ -83,10 +82,10 @@ ABloqueLadrillo::~ABloqueLadrillo() {}
 struct Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueLadrillo_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABloqueLadrillo, ABloqueLadrillo::StaticClass, TEXT("ABloqueLadrillo"), &Z_Registration_Info_UClass_ABloqueLadrillo, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABloqueLadrillo), 403094584U) },
+		{ Z_Construct_UClass_ABloqueLadrillo, ABloqueLadrillo::StaticClass, TEXT("ABloqueLadrillo"), &Z_Registration_Info_UClass_ABloqueLadrillo, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABloqueLadrillo), 2506727537U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueLadrillo_h_1027076521(TEXT("/Script/Prototype"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueLadrillo_h_762577164(TEXT("/Script/Prototype"),
 	Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueLadrillo_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueLadrillo_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

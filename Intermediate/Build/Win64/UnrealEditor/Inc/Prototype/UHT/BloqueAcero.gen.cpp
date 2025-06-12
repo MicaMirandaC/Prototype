@@ -74,7 +74,6 @@ template<> PROTOTYPE_API UClass* StaticClass<ABloqueAcero>()
 {
 	return ABloqueAcero::StaticClass();
 }
-ABloqueAcero::ABloqueAcero() {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(ABloqueAcero);
 ABloqueAcero::~ABloqueAcero() {}
 // End Class ABloqueAcero
@@ -83,10 +82,10 @@ ABloqueAcero::~ABloqueAcero() {}
 struct Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueAcero_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABloqueAcero, ABloqueAcero::StaticClass, TEXT("ABloqueAcero"), &Z_Registration_Info_UClass_ABloqueAcero, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABloqueAcero), 2656282566U) },
+		{ Z_Construct_UClass_ABloqueAcero, ABloqueAcero::StaticClass, TEXT("ABloqueAcero"), &Z_Registration_Info_UClass_ABloqueAcero, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABloqueAcero), 1293366153U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueAcero_h_1402168151(TEXT("/Script/Prototype"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueAcero_h_1246459990(TEXT("/Script/Prototype"),
 	Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueAcero_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Prototype_Source_Prototype_Public_BloqueAcero_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
